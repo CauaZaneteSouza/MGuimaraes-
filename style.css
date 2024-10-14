@@ -1,21 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
+    font-family: "Nunito Sans", sans-serif;
     margin: 0 auto;
+    font-size: 1rem;
 }
 header{
     background-color: #561727;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    padding-left: 5%;
+}
+#text_escritorio{
+background-image: linear-gradient();
+}
+#btn_contato01{
+ width: 10%;
+ height: 20%;   
 }
 li{
     display: inline-block;
     margin: 20px;
-    
 }
 main{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
+    margin: 0;
+}
+#ft_escritorio{
+   background-color: #141C32;
+   color: white;
+   font-weight: bold;
+   width:50px;
+   height:50px;
+   border: solid greenyellow;
+}
+ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+.navegar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navegar ul li a:hover{
 
+}
+#cont{
+    border: solid #CC974F;
+border-radius: 10px;
 }
